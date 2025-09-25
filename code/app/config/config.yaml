@@ -1,0 +1,35 @@
+# Configuration for Rabies Prediction Dashboard
+
+data:
+  source_file: "data/Rabies__Weather__War_Combined_1.4.25.xlsx"
+  
+model:
+  model_file: "models/trained_model.pkl"
+  preprocessor_file: "models/preprocessor.pkl"
+  
+features:
+  categorical:
+    - "Animal Species"
+    - "Rabies Species" 
+    - "Region"
+    - "Settlement"
+    - "Region_Weather"
+    - "Month"
+  
+  numeric:
+    - "x"
+    - "y"
+    - "Avg Temperature"
+    - "Monthly Precipitation (mm)"
+    - "Rainy Days"
+    - "Rabies_Cases_Per_Month"
+    - "Event Per Year"
+  
+  targets:
+    - "Region"
+    - "Month"
+
+app:
+  title: "Rabies Prediction System"
+  icon: "🦠"
+  layout: "wide"
