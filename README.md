@@ -89,6 +89,13 @@ pip install -r requirements.txt
 streamlit run app/main.py
 ```
 
+4. **Access the Dashboard**
+After running the command above, the dashboard will be available at:
+- Local URL: http://localhost:8501
+- Network URL: http://192.168.1.xxx:8501 (for access within your local network)
+
+Note: The dashboard is currently configured for local development and testing. To access it, use the local URLs provided when running the streamlit command.
+
 ## Features
 
 ### Prediction Capabilities
