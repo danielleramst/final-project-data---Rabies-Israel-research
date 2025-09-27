@@ -65,8 +65,9 @@ Comprehensive research documentation covering:
 - Business Understanding
 - Data Understanding
 - Data Preparation
-- Modeling Process
-- Model Evaluation
+- Data Modeling
+- Evaluation
+- Deployment
 
 ## Setup and Installation
 
