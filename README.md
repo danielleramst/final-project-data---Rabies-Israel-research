@@ -33,8 +33,9 @@ rabies-prediction-dashboard/
 │   ├── Business Understanding.pdf
 │   ├── Data Understanding.pdf
 │   ├── Data Preparation.pdf
-│   ├── Modeling.pdf
-│   └── Evaluation.pdf
+│   ├── Data Modeling.pdf
+│   ├── Evaluation.pdf
+│   └── Deployment.pdf
 └── venv/                       # Python Virtual Environment
 
 ```
